@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <title>Tip Calculator</title>
+  <link rel="icon" href="images/favicon-32x32.png" size = "32x32"> 
+
+</head>
+<body>
+  <h2 class = "main-header">S P L I T T E R</h2>
+  <div class="main-box">
+    <div class="left-card">   
+      <div class="up-block"> 
+        <label for="bill" class="up-block-header">Bill</label>
+        <input class="up-block-field" type="number" max="9999" id="bill" name="bill" placeholder="" required>
+        <img class="dolar-icon" src="images/icon-dollar.svg" alt="dollar">
+    </div>
+
+    <div class="middle-block">
+      <h3 class="middle-block-header">Select Tip %</h3>
+      <div class="block-area">
+      <button class="btn" type="submit" id="btn5">5%</button>
+      <button class="btn" type="submit" id="btn10">10%</button>
+      <button class="btn" type="submit" id="btn15">15%</button>
+      <button class="btn" type="submit" id="btn25">25%</button>
+      <button class="btn" type="submit" id="btn50">50%</button>
+      <input type="number"  class="btn" id="btncustom" placeholder=" Custom">
+      
+      </div>
+    </div>
+
+    <div class="bottom-block">
+      <label class="bottom-block-header" for="personumbers">Number Of People</label>
+      <input class="personfield" type="number" for="personumbers" id="personumbers" placeholder="" required>
+      <img class="person-icon" src="images/icon-person.svg" alt="personicon">
+    </div>
+    <p class = "alert-text hidden" id="alert"> Can't Be zero</p>
+    </div>
+    
+    <div class="right-card">
+      <div class="up-box">
+        <div class="tip-block">
+          <p class="tip-title">Tip Amount</p>
+          <p class="person-title">/ person</p>
+        </div>
+        <p class="tip-amount" id="tip-person">$0.00</p>
+      </div>
+      
+      <div class="middle-box">
+        <div class="tip-block">
+          <p class="tip-title">Total</p>
+          <p class="person-title">/ person</p>
+        </div>
+        <p class="tip-amount" id="total-person">$0.00</p>
+      </div>
+      
+      <button class="btn-reset" type="submit">RESET</button>
+    </div>
+  </div>
+  
+</body>
+<script src="script.js"></script>
+</html>

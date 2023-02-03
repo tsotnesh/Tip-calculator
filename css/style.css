@@ -1,0 +1,238 @@
+body {
+    background-color:hsl(185, 41%, 84%);
+}
+
+.main-header {
+    margin:0 auto;
+    margin-top:163px;
+    width: 86px;
+    color:hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main-box {
+    margin:0 auto;
+    margin-top: 87px;
+    margin-bottom:239px;
+    max-width:920px;
+    width:100%;
+    height:481px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    border-radius:25px;
+}
+
+.left-card {
+    margin-top: 45px;
+    width: 379px;
+    height: 417px;
+}
+
+
+
+.up-block {
+    display:flex;
+    flex-direction: column;
+    position:relative;
+}
+
+.up-block-header, .middle-block-header, .bottom-block-header {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:20px;
+    color:hsl(186, 14%, 43%);
+}
+
+.up-block-field {
+    margin-top:6px;
+    width: 379px;
+    height:48px;
+    color:hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:25px;
+    text-align: right;
+    background-color: hsl(189, 41%, 97%);
+    cursor:pointer;
+    border-radius:5px;
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.middle-block {
+    margin-top:40px;
+}
+
+.block-area {
+    margin-top:10px;
+    width:379px;
+    height: 110px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width:117px;
+    height:48px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius:5px;
+    border:none;
+    color: hsl(0, 0%, 100%);
+    font-size:20px;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.btn:nth-child(6) {
+    background-color:hsl(189, 41%, 97%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:20px;
+    color:hsl(184, 14%, 56%);
+    text-align: right;
+}
+
+.bottom-block {
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+}
+
+.personfield {
+    margin-top:6px;
+    width:379px;
+    height:48px;
+    color:hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:25px;
+    text-align: right;
+    background-color: hsl(189, 41%, 97%);
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.btn:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+/* right card details and css styles. */
+
+.right-card {
+    margin-top: 32px;
+    width:413px;
+    height:417px;
+    background-color:hsl(183, 100%, 15%);
+    border-radius:15px;
+    display:flex;
+    flex-direction:column
+}
+
+.up-box, .middle-box {
+    margin: 0 auto;
+    width:370px;
+    display:flex;
+    justify-content: space-between;
+}
+.person-title {
+    margin-top: 5px;
+}
+.up-box {
+    margin-top: 56px;
+}
+.middle-box {
+    margin-top: 53px;
+}
+
+.tip-block {
+    display:flex;
+    flex-direction: column;
+}
+
+.tip-title {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:15px;
+}
+
+.person-title {
+    color:hsl(184, 14%, 56%);
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:18px;
+}
+
+.tip-amount {
+    color:hsl(172, 67%, 45%);
+    font-size:35px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+.btn-reset {
+    margin: 0 auto;
+    margin-top:131px;
+    width:333px;
+    height:48px;
+    background-color:hsl(172, 67%, 45%);
+    border:none;
+    cursor: pointer;
+    border-radius:5px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size:20px;
+    transition: all 0.2s ease-in;   
+}
+
+.btn-reset:hover {
+    background-color:hsl(185, 41%, 84%);
+}
+
+.active {
+    background-color: hsl(172, 67%, 45%);
+}
+
+.person-icon, .dolar-icon {
+    position:absolute;
+    margin-top:35px;
+    margin-left:10px;
+    height:30px;
+    width:20px;
+}
+
+.alert-text {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+}
+
+.hidden {
+    display:none;
+}
+
+input:focus {
+    outline:none;
+}
+
+/* arrow isrebi rom mogvacilos number inputidan */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
